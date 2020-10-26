@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  color: darkgreen;
+}
+
+.generalProp {
+  width: 35%;
+  height: 400px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
