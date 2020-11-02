@@ -32,7 +32,7 @@ let qA = [
 ];
 
 function quotesRandomizer() {
-  let rNum = Math.floor(Math.random() * 7);
+  let rNum = Math.floor(Math.random() * qA.length);
   //alert("Random: " + rNum);
   alert(`“${qA[rNum].quote}” \n\n― ${qA[rNum].author}`);
 }
